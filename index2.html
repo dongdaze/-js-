@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN"> 
+<head>
+	<meta charset="UTF-8">
+	<title>购物网站</title>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style/resets.css">
+	<link rel="stylesheet" type="text/css" href="style/shopping.css">
+	<script type="text/javascript" src="js/shopping.js"></script>
+</head>
+<body>
+<!--[if lte IE8]>
+<p class="browerupgrade">请<a href="http://browsehappy.com">升级</a>您的浏览器</p>
+<![endif]-->
+
+<div class="head clearfix">
+
+	<div class="top ">
+		<ul class="top-left">
+			<li><a href="index.html" style="color:red">返回首页(可点击)</a></li>
+			<li><a href="#">社区</a></li>
+			<li><a href="#">指南</a></li>
+			<li><a href="#">问题反馈</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="#">登录</a></li>
+			<li><a href="#">注册</a></li>
+		</ul>
+	</div><!--主导航第一部分结束-->
+
+<!--主导航菜单开始-->
+	<div class="main" >
+		<img src="images/brand_sm.png" alt="图标" class="brand">
+		<div class="con-item" id="conItem">
+			<ul>
+				<li class="con-item1">苹果代理店</li>
+				<li>描述相符:<span>4.8</span></li>
+				<li>服务态度:<span>4.8</span></li>
+				<li>物流服务:<span>4.8</span></li>
+			</ul>
+		</div>
+		<div class="con-search">
+			<input type="text"  class="icon">
+		</div><!--搜索框-->
+	</div><!--主导航菜单结束-->
+
+<div class="contents" id="content">
+	<div class="content-left" id="smallBox">
+		<div id="mark"></div>
+		<div class="small-box" id="enlarge"></div>
+		<img src="images/small.jpg" alt="小图">		
+	</div>
+	<div class="img-big" id="bigBox">
+		<img src="images/big.jpg" alt="大图">
+	</div>
+
+	<div class="content-right" id="item">
+		<h2>Apple/苹果 iPhone6S 4.7英寸 全网通4G版手机 原封国行未激活 </h2>
+		<div class="content-right-price" >价格:￥
+		<span id="price">3699.00-4699.00</span>
+		</div>
+		<p>运费：快递费0元</p>
+		<div class="content-edition">
+			版本：<span>iphone6s</span>
+		</div>
+		<div class="content-color">
+			颜色：<span>玫瑰金</span>
+		</div>
+		<div class="content-type">
+			套餐：<span>国行</span>
+		</div>
+		<div class="content-item" id="type">
+			<ul>容量：
+				<li value="3699">16GB</li>
+				<li value="4299">32GB</li>
+				<li value="4699">64GB</li>
+			</ul>
+		</div>
+		<div class="content-num" id="conNum">
+			<label >数量:</label>
+			<span class="reduce" id="reduce">-</span>
+			<input type="text" value="1" id="num">
+			<span class="add" id="add">+</span>
+			<span class="canBuy">限购数量3</span>
+		</div>
+		<div class="content-buy" id="conBuy">
+			立即购买
+		</div>
+	</div>
+
+</div>
+
+<div class="info" >
+	<div class="info-nav">
+		<ul>
+			<li id="infoNav1">商品详情</li>
+			<li id="infoNav2">累计评价(5)</li>
+			<li id="infoNav3">大家提问</li>
+		</ul>
+		<span>手机购买</span>
+	</div>
+</div>	
+
+	<div class="info-details" id="infoDet">
+		<h2>品牌名称：Apple/苹果</h2>
+		<p>产品参数：</p>
+		<ul>
+			<li>证书编号:20160xxxxxxxxxxx</li>
+			<li>证书状态:有效</li>
+			<li>申请人名称:美国苹果公司</li>
+		</ul>
+		<ul>
+			<li>制造商名称:美国苹果公司</li>
+			<li>产品名称:TD-LTE移动电话机</li>
+			<li>3C产品型号A1723</li>
+		</ul>
+		<ul>
+			<li>产品名称：iPhone 6s</li>
+			<li>CPU型号: A9</li>
+			<li>Apple型号: iPhone 6s</li>
+		</ul>
+		<ul>
+			<li>机身颜色:玫瑰金色</li>
+			<li>运行内存RAM: 不详</li>
+			<li>存储容量: 16GB 32GB 64GB</li>
+		</ul>
+		<ul>
+			<li>网络模式: 单卡</li>
+			<li>电池容量: 1715mAh</li>
+		</ul>
+		<div class="info-details-img clearfix"><img src="images/info.jpg" alt="商品介绍"></div>
+	</div><!--商品详情-->
+
+	<div class="info-comment" id="infoCom">
+		<div class="info-comment-nav">
+			<h3>与描述相符</h3>
+			<p>4.8</p>
+			<img src="images/icon9.png" alt="星星"> 
+			<ul>
+				<li>原装</li>
+				<li>手机不错</li>
+				<li>服务态度好</li>
+				<li>快递速度快</li>
+				<li>性能好</li>
+			</ul>
+		</div>
+
+		<div class="info-con">
+			<div class="info-con-con">
+				<div class="con-con-left">正品行货，值得信赖。虽然贵点，但心里踏实。客服小妹，服务态度很好，赞
+				</div>
+				<div class="info-con-con-pa" id="pa"><span ></span></div>
+				<div class="con-con-right">
+					<span>q***5（匿名)</span>
+					<ul>
+						<li>版本:iphone6s</li>
+						<li>颜色:玫瑰金</li>
+						<li>套餐:国行</li>
+						<li>容量:16GB</li>
+					</ul>
+				</div>
+			</div> <!--一个评价-->
+
+			<div class="info-con-con">
+				<div class="con-con-left">手机非常正，三码统一，国行a1700三网通，官网查询未激活，虽然生产日期是三月份的，最高兴的是台积电的u，屏幕偏暖但并不是发黄的那种，个人比较喜欢这种色温，跑分也很给力，用了快一星期，没有出现过问题
+				</div>
+				<div class="info-con-con-pa" id="pa2"><span></span></div>
+				<div class="con-con-right">
+					<span>w***g（匿名)</span>
+					<ul>
+						<li>版本:iphone6s</li>
+						<li>颜色:玫瑰金</li>
+						<li>套餐:国行</li>
+						<li>容量:32GB</li>
+					</ul>
+				</div>
+			</div> <!--一个评价-->
+
+			<div class="info-con-con">
+				<div class="con-con-left">用了一段时间才来评价的，无疑是正品咯～售后也还可以，因为平时手机玩的也不是特别多，对于耗电这个问题个人感觉还好……前面看评论卖家用好大的盒子装手机寄出,收到的时候盒子变小了，说明还是有在看买家评价改进的吧～
+				</div>
+				<div class="info-con-con-pa" id="pa3"><span></span></div>
+				<div class="con-con-right">
+					<span>吴***1</span>
+					<ul>
+						<li>版本:iphone6s</li>
+						<li>颜色:玫瑰金</li>
+						<li>套餐:国行</li>
+						<li>容量:16GB</li>
+					</ul>
+				</div>
+			</div> <!--一个评价-->
+
+			<div class="info-con-con">
+				<div class="con-con-left">手机用了7天整天不错，CPU三星占55% 台积电占44% 系列号是C头 后来查看电池、通讯录、照片等都没有用过的痕迹 看视频玩游戏只是手机有点热 目前一天最多充两次电 对了刚激活保修才327天 联系客服补了发票 按流程操作才弄好...目前就这样
+				</div>
+				<div class="info-con-con-pa" id="pa4"><span></span></div>
+				<div class="con-con-right">
+					<span>浮***人</span>
+					<ul>
+						<li>版本:iphone6s</li>
+						<li>颜色:玫瑰金</li>
+						<li>套餐:国行</li>
+						<li>容量:64GB</li>
+					</ul>
+				</div>
+			</div> <!--一个评价-->
+
+			<div class="info-con-con">
+				<div class="con-con-left">顺丰陆运是有点慢，但是宝贝还是很好的，以前在这买了平板，没问题，比实体店也便宜，所以这次也在这买了，还是台积电，很喜欢，也是未激活的
+				</div>
+				<div class="info-con-con-pa" id="pa5"><span></span></div>
+				<div class="con-con-right">
+					<span>i***e（匿名）</span>
+					<ul>
+						<li>版本:iphone6s</li>
+						<li>颜色:玫瑰金</li>
+						<li>套餐:国行</li>
+						<li>容量:32GB</li>
+					</ul>
+				</div>
+			</div> <!--一个评价-->
+
+		</div>	<!--累计评价-->
+	</div>
+
+<div class="question" >
+	<ul id="que">
+		<li id="queList">
+			<div class="reply-content">
+				<p class="reply-text">
+					<span class="user">李x:</span>
+					这个手机怎么样？是不是翻新机呢？					
+				</p>
+				<a href="javascript:" class="reply-operate">回复</a>
+			</div>
+			<div class="reply-content">
+				<p class="reply-text">
+					<span class="user">王x:</span>
+					手机待机时间长吗？有售后保证吗?					
+				</p>
+				<a href="javascript:" class="reply-operate">回复</a>
+			</div>			
+
+		<!--别人结束-->
+			<div class="reply-content">
+				<p class="reply-text">
+					<span class="user">张x回复李x:</span>
+					手机不是翻新机，我买来用了一个星期，反应速度也快，玩游戏也很带感，我拿手机去体验店验了一下，没问题的。					
+				</p>
+				<a href="javascript:" class="reply-operate">回复</a>
+			</div>	
+
+			<div class="reply-box">
+				<textarea class="reply" autocomplete="off">提问…</textarea>
+				<span class="word">0/120</span>
+				<button class="btn btn-off">提 问</button>				
+			</div><!--我的回复-->
+		</li>
+	</ul>
+</div><!--评论结束-->
+
+
+	
+
+<div id="upTop">回到顶部</div>
+	
+<div class="foot"><!-- 底部 -->
+	<ul>
+		<li>帮助中心
+			<ul>
+				<li><a href="#">账户管理</a></li>
+				<li><a href="#">购物指南</a></li>
+				<li><a href="#">订单操作</a></li>
+			</ul>
+		</li>
+
+		<li>服务支持
+			<ul>
+				<li><a href="#">自助服务</a></li>
+				<li><a href="#">相关下载</a></li>
+				<li><a href="#">售后政策</a></li>
+			</ul>
+		</li>
+
+		<li>关于我们
+			<ul>
+				<li><a href="#">了解我们</a></li>
+				<li><a href="#">加入我们</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</li>
+		<li>其它服务			
+		<ul>
+				<li><a href="#">新浪微博</a></li>
+				<li><a href="#">官方微信</a></li>
+				<li><a href="#">防伪查询</a></li>
+			</ul>
+		</li>
+	</ul>
+
+	<p>	
+	<img src="images/brand_sm.png" alt="图标" >
+	模拟购物网 :©shouji.com 京ICP证100000号,本网站所列数据，均出自个人杜撰，如有雷同或侵权，我将立即修改
+	</p>
+
+</div>
+</body>
+</html> 
+
