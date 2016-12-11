@@ -190,6 +190,7 @@ window.onload=function(){
 		infoCom.style.display="none";
 		infoDet.style.display="none";		
 		que.style.display="block";
+		console.log(que);
 	}
 
 //喜欢赞的点击与取消

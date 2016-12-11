@@ -493,7 +493,6 @@ a:active{
 
 /*提问*/
 .question{
-	display:block;
 	width:898px;
 	margin:0 auto;
 	padding:30px 50px;
@@ -501,7 +500,9 @@ a:active{
 	border:1px solid #ccc;
 	border-top:none;
 }
-
+#que{
+	display: none;
+}
 .reply-content{
 	width:358px;
 	height: 60px;
